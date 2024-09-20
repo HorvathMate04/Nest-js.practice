@@ -1,0 +1,29 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: bisque;
+}
+tr:nth-child(even){
+    background-color: rgb(255, 214, 100)
+}
+
+tr:nth-child(odd){
+    background-color: rgb(78, 255, 137)
+}
+
+td{
+    text-align: center;
+}
